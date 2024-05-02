@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Editor</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="function.js"></script>
+    <script src="EventListner.js"></script>
+</head>
+<body>
+    <div id = "options">
+        <button id="save" onclick="save()">Save</button>
+        <button id="bold" onclick="bold()">Bold</button>
+        <button id="italics" onclick="italics()">Italics</button>
+        <button id="underline" onclick="underline()">Underline</button>
+        <button id="erase" onclick="erase()">Erase</button>
+    </div>
+    <div class="textbox">
+        <textarea name="" id="TextArea" cols="50" rows="30" placeholder="Type Here..." contenteditable="true" spellcheck="true"></textarea>
+    </div>
+</body>
+</html>

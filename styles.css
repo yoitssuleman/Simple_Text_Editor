@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(9, 9, 9);
+}
+#TextArea{
+    background-color: rgb(9, 9, 9);
+    border: none;
+    color: rgb(254, 254, 254);
+}
+.textbox{
+    text-align: center;
+    margin-top: 5%
+}
+#options{
+    text-align: center;
+    align-items: center;
+    margin-top: 1%
+}
+
+#save{
+    font-size: small;
+    color: #fef9f9;
+    background-color: rgba(160, 32, 240 ,0.34);
+    padding: 1%;
+    margin: 1%;
+    border-radius: 20%;
+    border: none;
+    box-shadow: 0 4px 20px 0 rgba(175, 74, 247, 0.2), 0 5px 20px 0 rgba(160, 32, 240, 0.19);
+}
+#bold{
+    font-size: small;
+    color: #fef9f9;
+    background-color: rgba(160, 32, 240 ,0.34);
+    padding: 1%;
+    margin: 1%;
+    border-radius: 20%;
+    border: none;
+    box-shadow: 0 4px 20px 0 rgba(175, 74, 247, 0.2), 0 5px 20px 0 rgba(160, 32, 240, 0.19);
+}
+#italics{
+    font-size: small;
+    color: #fef9f9;
+    background-color: rgba(160, 32, 240 ,0.34);
+    padding: 1%;
+    margin: 1%;
+    border-radius: 20%;
+    border: none;
+    box-shadow: 0 4px 20px 0 rgba(175, 74, 247, 0.2), 0 5px 20px 0 rgba(160, 32, 240, 0.19);
+}
+#underline{
+    font-size: small;
+    color: #fef9f9;
+    background-color: rgba(160, 32, 240 ,0.34);
+    padding: 1%;
+    margin: 1%;
+    border-radius: 20%;
+    border: none;
+    box-shadow: 0 4px 20px 0 rgba(175, 74, 247, 0.2), 0 5px 20px 0 rgba(160, 32, 240, 0.19);
+}
+#erase{
+    font-size: small;
+    color: #fef9f9;
+    background-color: rgba(160, 32, 240 ,0.34);
+    padding: 1%;
+    margin: 1%;
+    border-radius: 20%;
+    border: none;
+    box-shadow: 0 4px 20px 0 rgba(175, 74, 247, 0.2), 0 5px 20px 0 rgba(160, 32, 240, 0.19);
+}
