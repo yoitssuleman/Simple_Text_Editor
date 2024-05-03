@@ -1,7 +1,8 @@
-document.addEventListener('keydown',function(event){
-    if(event.ctrlkey||event.metakey){
-        if(event.key === 'b' || event.key === 'B'){
-            bold();
-        }
-    }
-});
+document.addEventListener('keydown', function(event) {
+    var ctrlKey = event.ctrlKey || event.metaKey;
+    if (ctrlKey && event.key === 'b') {
+        bold();
+    } else if (ctrlKey && event.key === 'i') {
+        italics();
+    } else if (ctrlKey && event.key === 'u') {
+        underline();}});
